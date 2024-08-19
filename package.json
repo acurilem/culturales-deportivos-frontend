@@ -1,0 +1,38 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@pinia/nuxt": "^0.4.11",
+    "@sidebase/nuxt-session": "^0.2.8",
+    "dayjs-nuxt": "^2.1.9",
+    "nuxt": "^3.7.4",
+    "nuxt-security": "^1.0.0"
+  },
+  "dependencies": {
+    "@floating-ui/vue": "^1.0.2",
+    "@fortawesome/fontawesome-free": "^6.4.2",
+    "ag-grid-community": "^30.2.0",
+    "ag-grid-vue3": "^30.2.0",
+    "axios": "^1.6.0",
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.1",
+    "bootstrap-icons-vue": "^1.11.1",
+    "bootstrap-vue": "^2.23.1",
+    "jwt-decode": "^4.0.0",
+    "pinia": "^2.1.7",
+    "sass": "^1.68.0",
+    "sid-umag-components": "^1.0.2",
+    "vue": "^3.3.4",
+    "vue-toastification": "^2.0.0-rc.5",
+    "vuex": "^4.1.0"
+  }
+}
